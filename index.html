@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão de Beleza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Beleza Pura</div>
+            <ul class="nav-links">
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bem-vinda ao Beleza Pura</h1>
+        <p>Transformando sua beleza todos os dias</p>
+        <a href="#services" class="cta">Nossos Serviços</a>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Serviços</h2>
+        <div class="service-card">
+            <h3>Corte de Cabelo</h3>
+            <p>Cortes modernos e personalizados para você.</p>
+        </div>
+        <div class="service-card">
+            <h3>Maquiagem</h3>
+            <p>Makeup para todas as ocasiões.</p>
+        </div>
+        <div class="service-card">
+            <h3>Manicure</h3>
+            <p>Cuidados e design de unhas incríveis.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos um salão de beleza dedicado a realçar a beleza e a confiança das nossas clientes. Nosso time é composto por profissionais qualificados e apaixonados pelo que fazem.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato para agendar seu horário.</p>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Beleza Pura. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
