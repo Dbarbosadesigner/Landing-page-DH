@@ -15,9 +15,9 @@ body {
 header {
     background: #1b1b1b;
     padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: block;
+    justify-content: right;
+    align-items: baseline;
 }
 
 .nav-links {
@@ -42,6 +42,9 @@ header {
 .logo {
     font-size: 1.5em;
     font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: left;
 }
 
 .hero {
@@ -190,3 +193,23 @@ footer {
         font-size: 1em;
     }
 }
+
+/* ... código anterior ... */
+
+.whatsapp-button {
+    display: inline-block;
+    margin-top: 20px;
+    background: #25D366;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background: #1ebe57;
+}
+
+/* ... código anterior ... */
