@@ -3,51 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salão de Beleza</title>
+    <title>Caça Vazamentos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">Beleza Pura</div>
+        <div class="logo"><img src="DH SOS-1.png" alt="logo"></div>
+        <button class="botão" onclick="menu()">&#9776</button>
         <nav>
-            <ul class="nav-links">
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#about">Sobre Nós</a></li>
-                <li><a href="#contact">Contato</a></li>
+            <ul class="menu" id="menuVert">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
-
     <section class="hero">
-        <h1>Bem-vinda ao Beleza Pura</h1>
-        <p>Transformando sua beleza todos os dias</p>
+        <h1>Soluções Rápidas e Eficientes para Vazamentos</h1>
+        <p>Detectamos e resolvemos vazamentos com precisão</p>
         <a href="#services" class="cta">Nossos Serviços</a>
     </section>
 
     <section id="services" class="services">
         <h2>Serviços</h2>
         <div class="service-card">
-            <h3>Corte de Cabelo</h3>
-            <p>Cortes modernos e personalizados para você.</p>
+            <h3>Detecção de Vazamentos</h3>
+            <p>Utilizamos tecnologia avançada para localizar vazamentos ocultos.</p>
         </div>
         <div class="service-card">
-            <h3>Maquiagem</h3>
-            <p>Makeup para todas as ocasiões.</p>
+            <h3>Reparos de Vazamentos</h3>
+            <p>Soluções rápidas e eficazes para reparar vazamentos.</p>
         </div>
         <div class="service-card">
-            <h3>Manicure</h3>
-            <p>Cuidados e design de unhas incríveis.</p>
+            <h3>Inspeção de Sistemas</h3>
+            <p>Avaliação completa do sistema hidráulico para prevenir futuros problemas.</p>
         </div>
     </section>
 
     <section id="about" class="about">
         <h2>Sobre Nós</h2>
-        <p>Somos um salão de beleza dedicado a realçar a beleza e a confiança das nossas clientes. Nosso time é composto por profissionais qualificados e apaixonados pelo que fazem.</p>
+        <p>Somos uma empresa especializada em detecção e reparo de vazamentos, comprometida com a qualidade e a satisfação dos nossos clientes. Nossa equipe é formada por profissionais experientes e dedicados.</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Galeria</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="img (1).jpeg" alt="Foto 1"></div>
+            <div class="gallery-item"><img src="img (2).jpeg" alt="Foto 2"></div>
+            <div class="gallery-item"><img src="img (3).jpeg" alt="Foto 3"></div>
+            <div class="gallery-item"><img src="img (4).jpeg" alt="Foto 4"></div>
+            <div class="gallery-item"><img src="img (5).jpeg" alt="Foto 5"></div>
+            <div class="gallery-item"><img src="img (6).jpeg" alt="Foto 6"></div>
+        </div>
+    </section>
+    <section class="coments">
+            <h2>O que nossos clientes acham dos nossos servoiços!</h2>
+            <blockquote data-aos="fade-up" data-aos-delay="100">"Excelente provedor de serviços.... Eu não sabia o que fazer e eles encontraram a solução...." - Maike Cavalcante.</blockquote>
+            <blockquote data-aos="fade-up" data-aos-delay="100">"Profissional de responsabilidade no que faz, preço justo e otimo atendimento! Pode crer! Chama a Hidro Eficaz!" - José R.</blockquote>
+            <blockquote data-aos="fade-up" data-aos-delay="100">"Empresa executa o serviço e após o desentupimento ,deixa tudo limpo na residência.!" - Paulo Soares.</blockquote>
     </section>
 
     <section id="contact" class="contact">
         <h2>Contato</h2>
-        <p>Entre em contato para agendar seu horário.</p>
+        <p>Entre em contato para agendar uma inspeção ou solicitar um orçamento.</p>
         <form>
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" required>
@@ -61,9 +80,12 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Beleza Pura. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Caça Vazamentos. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js"><script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js">AOS.init();</script>
+    
+        
+    
 </body>
 </html>

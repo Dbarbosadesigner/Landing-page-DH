@@ -1,11 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const navLinks = document.querySelector('.nav-links');
-    const toggleButton = document.createElement('div');
-    toggleButton.classList.add('toggle-button');
-    toggleButton.innerHTML = '&#9776;';
-    document.querySelector('nav').appendChild(toggleButton);
+function menu(params) {
+        var menu=document.getElementById('menuVert');
+        if (menu.style.display === "none") {
+            menu.style.display="block"
+        }
+        else{
+            menu.style.display="none"
+        }
+}
 
-    toggleButton.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-    });
-});
