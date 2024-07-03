@@ -205,11 +205,14 @@ h2 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
+    align-items: center;
+    margin: 0px ;
 }
 
 .contact button:hover {
     background: #1c86ee;
+    transform: scale(1.1);
 }
 
 .whatsapp-button {
@@ -221,11 +224,13 @@ h2 {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.2em;
-    transition: background 0.3s ease;
+    transition: all 0.3s;
+    align-items: center;
 }
 
 .whatsapp-button:hover {
-    background: #1ebe57;
+    background: #109b27;
+    transform: scale(1.2);
 }
 
 footer {
