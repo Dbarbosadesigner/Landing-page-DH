@@ -30,7 +30,7 @@ header {
     position: relative;
     display: block;
     top: 5px;
-    right: 90px;
+    right: 2%;
     line-height: 2em;
 }
 
@@ -107,7 +107,7 @@ header .logo img{
     max-width: 200px;
     display: flex;
     position: relative;
-    left: 30%;
+    left: 10%;
     justify-content: center;
     
     
