@@ -25,17 +25,15 @@ header {
 }
 
 .contactHeader {
-    color: #0d0d0d;
+    color: #ec0000;
     text-align: center;
     position: relative;
     display: block;
     top: 5px;
     right: 90px;
+    line-height: 2em;
 }
 
-.contactHeader h2 {
-    width: 100;
-}
 .menuBotao {
     color: #f5f5f5;
     background-color: rgb(255, 255, 255);
@@ -54,6 +52,7 @@ header {
     position: relative;
     top: 6px;
     left: 11px;
+    cursor: pointer;
 
 }
 
@@ -67,6 +66,7 @@ header {
 }
 
 .menuList a:hover{
+
     color: #1c86ee;
 }
 
@@ -121,7 +121,7 @@ input:checked~label .hamburguer::after{
 .barra {
     background-color: #a11b04;
     height: 100%;
-    width: 300px;
+    width: 150px;
     position: absolute;
     transition: all .2s linear;
     z-index: 1;
@@ -137,6 +137,8 @@ header .logo img{
     font-weight: bold;
     max-width: 200px;
     display: flex;
+    position: relative;
+    left: 30%;
     justify-content: center;
     
     
@@ -166,7 +168,7 @@ header .logo img{
 }
 
 .cta {
-    background: #1e90ff;
+    background: #a11b04;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -268,7 +270,7 @@ h2 {
 }
 
 .contact button {
-    background: #1e90ff;
+    background: #a11b04;
     color: #fff;
     padding: 10px 20px;
     border: none;
