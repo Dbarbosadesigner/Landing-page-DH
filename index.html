@@ -9,16 +9,21 @@
 <body>
     <header>
         <div class="logo"><img src="DH SOS-1.png" alt="logo"></div>
-        <button class="botão" onclick="menu()">&#9776</button>
-        <nav>
-            <ul class="menu" id="menuVert">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
     </header>
+    <input type="checkbox" id="check">
+        <label for="check">
+            <div class="menuBotao">
+                <span class="hamburguer"></span>
+            </div>
+        </label>
+    <div class="barra">
+        <ul class="menuList" id="list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </div>
     <section class="hero">
         <h1>Soluções Rápidas e Eficientes para Vazamentos</h1>
         <p>Detectamos e resolvemos vazamentos com precisão</p>
