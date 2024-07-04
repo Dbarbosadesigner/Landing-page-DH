@@ -5,32 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caça Vazamentos</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <div class="logo"><img src="DH SOS-1.png" alt="logo"></div>
+        <div class="contactHeader">
+            <h1>CONTATO</h1>
+        <h2>(13)9 9759-0655</h2>
+        </div>
     </header>
-    <input type="checkbox" id="check">
-        <label for="check">
-            <div class="menuBotao">
-                <span class="hamburguer"></span>
+    
+    <input class="checkBox" type="checkbox" id="check">
+        <label for="check" class="menuBotao">
+            <div class="btnExpandir">
+                <i class="bi bi-house-add-fill"></i>
             </div>
         </label>
-    <div class="barra">
-        <ul class="menuList" id="list">
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#sobre">Sobre Nós</a></li>
-            <li><a href="#produtos">Produtos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </div>
+        <div class="barra">
+            <nav class="menuList">
+                <ul>
+                    <li><a href="#inicio" class="ocultar">Início</a></li>
+                    <li><a href="#servicos" class="ocultar">Serviços</a></li>
+                    <li><a href="#sobre" class="ocultar">Sobre Nós</a></li>
+                    <li><a href="#contato" class="ocultar">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     <section class="hero">
         <h1>Soluções Rápidas e Eficientes para Vazamentos</h1>
         <p>Detectamos e resolvemos vazamentos com precisão</p>
         <a href="#services" class="cta">Nossos Serviços</a>
     </section>
 
-    <section id="services" class="services">
+    <section id="servicos" class="services">
         <h2>Serviços</h2>
         <div class="service-card">
             <h3>Detecção de Vazamentos</h3>
@@ -46,7 +54,7 @@
         </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="sobre" class="about">
         <h2>Sobre Nós</h2>
         <p>Somos uma empresa especializada em detecção e reparo de vazamentos, comprometida com a qualidade e a satisfação dos nossos clientes. Nossa equipe é formada por profissionais experientes e dedicados.</p>
     </section>
@@ -69,7 +77,7 @@
             <blockquote data-aos="fade-up" data-aos-delay="100">"Empresa executa o serviço e após o desentupimento ,deixa tudo limpo na residência.!" - Paulo Soares.</blockquote>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="contato" class="contact">
         <h2>Contato</h2>
         <p>Entre em contato para agendar uma inspeção ou solicitar um orçamento.</p>
         <form>
@@ -81,14 +89,14 @@
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Enviar</button>
         </form>
-        <a href="https://wa.me/SEU_NUMERO_DE_TELEFONE" class="whatsapp-button" target="_blank">Fale Conosco no WhatsApp</a>
+        <a href="https://wa.me/47992066351" class="whatsapp-button" target="_blank">Fale Conosco no WhatsApp</a>
     </section>
 
     <footer>
         <p>&copy; 2024 Caça Vazamentos. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="script.js"><script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js">AOS.init();</script>
+    <script src="script.js"></script>
     
         
     
